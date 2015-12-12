@@ -1,0 +1,24 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Dec 11, 2015
+ *      Author: hitman
+ */
+
+#include <stdio.h>
+#include "sha256.h"
+#include "sha512.h"
+
+
+/*int main()
+{
+	FILE* input_file = fopen("inupt.txt", "rt");
+	char input_buffer[2048];
+	int char_read = fscanf(input_file ,"%s", input_buffer);
+	printf(" the number of chatacters is : %d", char_read);
+	return 0;
+}
+*/
+
+
+

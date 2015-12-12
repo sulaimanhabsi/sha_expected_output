@@ -1,0 +1,6 @@
+07:26:43 **** Incremental Build of configuration Debug for project sha_results ****
+make all 
+Cannot run program "make": Unknown reason
+
+07:26:43 Build Finished (took 9ms)
+

@@ -1,0 +1,102 @@
+11:00:02 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+make: Nothing to be done for `all'.
+11:00:03 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+make: Nothing to be done for `all'.
+11:00:36 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/sha512.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha512.d" -MT"src/sha512.o" -o "src/sha512.o" "/home/hitman/Desktop/sha/src/sha512.c"
+Finished building: /home/hitman/Desktop/sha/src/sha512.c
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 
+11:01:04 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/sha512.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha512.d" -MT"src/sha512.o" -o "src/sha512.o" "/home/hitman/Desktop/sha/src/sha512.c"
+Finished building: /home/hitman/Desktop/sha/src/sha512.c
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 
+11:06:22 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/sha512.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha512.d" -MT"src/sha512.o" -o "src/sha512.o" "/home/hitman/Desktop/sha/src/sha512.c"
+/home/hitman/Desktop/sha/src/sha512.c: In function ‘mbedtls_sha512_process’:
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 12 has type ‘int’ [-Wformat=]
+                         80, A, B, C, D, E, F, G, H, 0, 0  );
+                         ^
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 13 has type ‘int’ [-Wformat=]
+Finished building: /home/hitman/Desktop/sha/src/sha512.c
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 
+11:09:44 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/sha512.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha512.d" -MT"src/sha512.o" -o "src/sha512.o" "/home/hitman/Desktop/sha/src/sha512.c"
+/home/hitman/Desktop/sha/src/sha512.c: In function ‘mbedtls_sha512_process’:
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 12 has type ‘int’ [-Wformat=]
+                         80, A, B, C, D, E, F, G, H, 0, 0  );
+                         ^
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 13 has type ‘int’ [-Wformat=]
+Finished building: /home/hitman/Desktop/sha/src/sha512.c
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 
+11:11:54 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "/home/hitman/Desktop/sha/src/main.cpp"
+Finished building: /home/hitman/Desktop/sha/src/main.cpp
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 
+11:19:53 **** Incremental Build of configuration Debug for project sha2_testbench ****
+make all 
+Building file: /home/hitman/Desktop/sha/src/sha256.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha256.d" -MT"src/sha256.o" -o "src/sha256.o" "/home/hitman/Desktop/sha/src/sha256.c"
+/home/hitman/Desktop/sha/src/sha256.c: In function ‘mbedtls_sha256_process’:
+/home/hitman/Desktop/sha/src/sha256.c:206:22: warning: too many arguments for format [-Wformat-extra-args]
+                      i+0,A[0], A[1], A[2], A[3], A[4], A[5], A[6], A[7], W[i+0], K[i+0] );
+                      ^
+Finished building: /home/hitman/Desktop/sha/src/sha256.c
+ 
+Building file: /home/hitman/Desktop/sha/src/sha512.c
+Invoking: GCC C Compiler
+gcc -I"/home/hitman/Desktop/sha/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sha512.d" -MT"src/sha512.o" -o "src/sha512.o" "/home/hitman/Desktop/sha/src/sha512.c"
+/home/hitman/Desktop/sha/src/sha512.c: In function ‘mbedtls_sha512_process’:
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 12 has type ‘int’ [-Wformat=]
+                         80, A, B, C, D, E, F, G, H, 0, 0  );
+                         ^
+/home/hitman/Desktop/sha/src/sha512.c:273:25: warning: format ‘%lX’ expects argument of type ‘long unsigned int’, but argument 13 has type ‘int’ [-Wformat=]
+Finished building: /home/hitman/Desktop/sha/src/sha512.c
+ 
+Building target: sha2_testbench
+Invoking: GCC C++ Linker
+g++  -o "sha2_testbench"  ./src/main.o ./src/sha256.o ./src/sha512.o   
+Finished building target: sha2_testbench
+ 

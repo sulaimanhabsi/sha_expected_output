@@ -1,0 +1,29 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Dec 11, 2015
+ *      Author: hitman
+ */
+
+#include <stdio.h>
+#include "sha256.h"
+#include "sha512.h"
+
+
+int main()
+{
+	FILE* input_file = fopen("input.txt", "rt");
+	unsigned char output_buffer[64];
+	if (input_file == NULL)
+		printf("cannot open the file \n\r");
+	unsigned char input_buffer[2048];
+	int char_read = fread(input_buffer,1,2048,input_file);
+	printf(" the number of chatacters is : %d", char_read);
+	mbedtls_sha256(input_buffer,char_read,output_buffer,0);
+	mbedtls_sha512(input_buffer,char_read,output_buffer,0);
+	return 0;
+}
+
+
+
+
